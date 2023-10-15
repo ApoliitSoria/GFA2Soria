@@ -1,0 +1,173 @@
+z*{
+    padding: 0vw;
+    margin: 0vw;
+}
+
+body{
+    background-image:url('holla.png');
+    background-size: cover;
+    background-position: cover;
+}
+.navbar{
+    border: 0.25vh solid rgb(255, 255, 255);
+    background-color: rgb(156, 56, 103);
+    height: 4vh;
+    padding: 1vw;
+}
+
+
+.linksgroup1 div{
+    background-color: #931212;
+    margin-top: 0.25vh;
+}
+#home, #gallery{
+    padding: 0.25vw;
+    border: 0.50vh solid #ffffff;
+    background-color: rgb(205,73,134);
+    transition: .4s;
+    font-size: 1.25vw;
+    font-family: 'Dela Gothic One', serif;
+}
+#home:hover, #gallery:hover, #source:hover, #about:hover{
+    padding: .25vw;
+    font-size: 1.25vw;
+    transition: .4s;
+    background-color: #721919;
+}
+.links1{
+    display: inline;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 1vw;
+}
+.links1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #d42626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.container{
+    margin: 2vh 3.5vw;
+    padding: 0vh;
+    width: 95vw;
+    background-color: rgb(205,73,134);
+
+
+}
+.linksgroup2{
+    float: left;
+    border: 0.25vh solid rgb(198, 65, 65);
+    background-color: #ffffff;
+    padding: 1vw;
+    width: 5vw;
+    text-align: center;
+    height: auto;
+    color: rgb(251, 253, 255);
+    font-family: 'Public Sans', serif;
+    font-size: smaller;
+}
+.linksgroup2 div, .linksgroup2 span{
+    background-color: #000000;
+}
+.linksgroup2 span {
+    display: block;
+    font-weight: 900;
+    font-size: 1.8vw;
+}
+.linksgroup2 div{
+    padding: 0.75vw;
+}
+.links2{
+    display: block;
+    font-weight: 1em;
+}
+
+#prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover, #prod6:hover{
+    opacity: 1;
+    font-weight: bolder;
+    padding: .4vw;
+    transition: .4s;
+}
+#contentbox{
+    float: left;
+    border: 0.55vh solid rgb(205,73,134);
+    margin: 0vw 1vw;
+    width: 55vw;
+    height: auto;
+    background-color: #ffffff;
+    overflow: auto;
+}
+#contentbox h1 {
+    text-align: center;
+    margin: 2vw 2vw 0vw 2vw;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Jost', sans-serif;
+    font-size: 6vw;
+}
+#contentbox h1:hover{
+    transition: 0.4s;
+    color:rgb(147, 32, 147)
+}
+
+#contentbox h2{
+    text-align: center;
+    margin: 2vw 2vw 0vw 2vw;
+    background-color: #ffffff;
+    color: rgb(205,73,134);
+    font-family: 'Jost', sans-serif;
+    font-size: 5vw;
+}
+#contentbox h2:hover{
+    transition: 0.4s;
+    color: rgb(255, 0, 119)
+}
+#contentbox h3 {
+    text-align: center;
+    margin: 0vw 2vw 2vw 2vw;
+    background-color: #ffffff;
+    color: #c41a1a;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25vw;
+
+}
+#contentbox p{
+    top: 1vw;
+    margin: 2.5vw;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15vw;
+    text-align: justify;
+}
+#imagecontain{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 1vh double rgb(205,73,134)  ;
+    background-color: #ffffff;
+    height: auto;
+}
+#imagecontain div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imagecontain img {
+    padding-top: 2vw;
+    background-color: #ffffff;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+#caption {
+    text-align: center;
+    margin: 1vw;
+    background-color: #ffffff;
+    font-family: 'Raleway', serif;
+    font-size: 1.25vw;
+    color:rgb(205,73,134)
+}
+   
